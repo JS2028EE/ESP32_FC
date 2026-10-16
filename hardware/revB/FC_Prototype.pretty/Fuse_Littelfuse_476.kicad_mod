@@ -1,0 +1,8 @@
+(footprint "Fuse_Littelfuse_476" (version 20241229) (generator pcbnew) (layer "F.Cu")
+(descr "Littelfuse 476 Rev 2026-02-25 p3: 6.86mm overall, 1.96x3.15mm lands") (attr smd)
+(fp_text reference "REF**" (at 0 -2.4) (layer "F.SilkS") (effects(font(size 1 1)(thickness 0.15))))
+(fp_text value "Fuse_Littelfuse_476" (at 0 2.4) (layer "F.Fab") (effects(font(size 1 1)(thickness 0.15))))
+(fp_rect(start -3.15 -1.47)(end 3.15 1.47)(stroke(width .1)(type default))(fill none)(layer "F.Fab"))
+(fp_rect(start -3.68 -1.83)(end 3.68 1.83)(stroke(width .05)(type default))(fill none)(layer "F.CrtYd"))
+(pad "1" smd rect(at -2.45 0)(size 1.96 3.15)(layers "F.Cu" "F.Paste" "F.Mask"))
+(pad "2" smd rect(at 2.45 0)(size 1.96 3.15)(layers "F.Cu" "F.Paste" "F.Mask")))

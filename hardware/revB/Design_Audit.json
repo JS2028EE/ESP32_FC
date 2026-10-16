@@ -1,0 +1,65 @@
+{
+  "pin_net_assignments_compared": 329,
+  "components": 103,
+  "board_only_holes": 4,
+  "track_segments": 1470,
+  "vias": 194,
+  "critical_routes": {
+    "SW_5V": {
+      "length_mm": 7.457,
+      "layers": [
+        "F.Cu"
+      ],
+      "vias": 0
+    },
+    "SW_3V3": {
+      "length_mm": 7.054,
+      "layers": [
+        "F.Cu"
+      ],
+      "vias": 0
+    },
+    "BOOT_5V": {
+      "length_mm": 2.327,
+      "layers": [
+        "F.Cu"
+      ],
+      "vias": 0
+    },
+    "BOOT_3V3": {
+      "length_mm": 1.604,
+      "layers": [
+        "F.Cu"
+      ],
+      "vias": 0
+    },
+    "FB_5V": {
+      "length_mm": 6.252,
+      "layers": [
+        "F.Cu"
+      ],
+      "vias": 0
+    },
+    "BUCK_VCC": {
+      "length_mm": 4.044,
+      "layers": [
+        "F.Cu"
+      ],
+      "vias": 0
+    },
+    "USB_DM_ESD": {
+      "length_mm": 12.96,
+      "layers": [
+        "F.Cu"
+      ],
+      "vias": 0
+    },
+    "USB_DP_ESD": {
+      "length_mm": 12.945,
+      "layers": [
+        "F.Cu"
+      ],
+      "vias": 0
+    }
+  }
+}

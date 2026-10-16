@@ -1,0 +1,56 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-15T22:11:36",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/67673804-6021-4764-85fb-2427dcfd96f1",
+            "violations": []
+        },
+        {
+            "path": "/Power/",
+            "uuid_path": "/67673804-6021-4764-85fb-2427dcfd96f1/1ffb7884-796c-41f1-badd-e68f68626104",
+            "violations": []
+        },
+        {
+            "path": "/Sensors/",
+            "uuid_path": "/67673804-6021-4764-85fb-2427dcfd96f1/443ad8ab-ec3d-4ef8-9b39-d59725304a25",
+            "violations": []
+        },
+        {
+            "path": "/Interfaces/",
+            "uuid_path": "/67673804-6021-4764-85fb-2427dcfd96f1/a79c1462-a5c8-4880-a2c5-3b2ba9b56f3d",
+            "violations": []
+        },
+        {
+            "path": "/Auxiliary/",
+            "uuid_path": "/67673804-6021-4764-85fb-2427dcfd96f1/fc04bb2f-c834-498e-a66c-9e8a712f7aa1",
+            "violations": []
+        }
+    ],
+    "source": "ESP32_FC.kicad_sch"
+}

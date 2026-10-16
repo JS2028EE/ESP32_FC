@@ -1,0 +1,10 @@
+# KiCad editor state and temporary files
+*.kicad_prl
+*.lck
+~*.lck
+*-backups/
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+__pycache__/

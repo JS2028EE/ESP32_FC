@@ -1,0 +1,104 @@
+Reference,Value,MPN,Footprint,Specification,Sheet
+C1,22u,GRM21BR61C226ME44L,Capacitor_SMD:C_0805_2012Metric,"X5R 16V 20%, 0805; board operation <=85C",ESP32_FC
+C2,100n,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,"X7R, 16V",ESP32_FC
+C3,1u,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,"X7R, 16V",ESP32_FC
+C4,100n,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,"X7R, 16V",ESP32_FC
+C5,10n,GRM188R71H103KA01D,Capacitor_SMD:C_0603_1608Metric,"X7R, 16V",ESP32_FC
+J1,USB-C / USB2 FS,TYPE-C-31-M-12,FC_Prototype:USB_C_HRO_Edge,"['name', 'Specification']",ESP32_FC
+Q3,DMN2056U,DMN2056U-7,Package_TO_SOT_SMD:SOT-23,VBUS detector; drain isolated from USB supply when MCU is unpowered,ESP32_FC
+R1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",ESP32_FC
+R2,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",ESP32_FC
+R3,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",ESP32_FC
+R4,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",ESP32_FC
+R5,22R,RC0603FR-0722RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",ESP32_FC
+R6,22R,RC0603FR-0722RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",ESP32_FC
+R7,5.1k,RC0603FR-075K1L,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",ESP32_FC
+R8,5.1k,RC0603FR-075K1L,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",ESP32_FC
+R9,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",ESP32_FC
+R10,100k,RC0603FR-07100KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",ESP32_FC
+R46,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W; active-low VBUS sense pull-up",ESP32_FC
+SW1,RESET,TL3342F160QG,Button_Switch_SMD:SW_SPST_TL3342,"['name', 'Specification']",ESP32_FC
+SW2,BOOT,TL3342F160QG,Button_Switch_SMD:SW_SPST_TL3342,"['name', 'Specification']",ESP32_FC
+U1,ESP32-S3-WROOM-1-N8R8,ESP32-S3-WROOM-1-N8R8,FC_Prototype:ESP32_S3_WROOM_Edge,8MB flash / 8MB octal PSRAM; GPIO35/36/37 unavailable,ESP32_FC
+U2,USBLC6-2SC6,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,"['name', 'Specification']",ESP32_FC
+C6,2.2u / 100V,GRM32ER72A225KA35L,Capacitor_SMD:C_1210_3225Metric,Murata 1210 X7R 100V 10%; ceramic bypass plus C27 bulk damping,Power
+C7,2.2u / 100V,GRM32ER72A225KA35L,Capacitor_SMD:C_1210_3225Metric,Murata 1210 X7R 100V 10%; local input bypass,Power
+C8,220n / 100V,C0805C224K1RACTU,Capacitor_SMD:C_0805_2012Metric,X7R 100V directly at VIN-PGND,Power
+C9,1u / 16V,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,"X7R, 16V",Power
+C10,100n,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,"X7R, 16V",Power
+C11,22u / 25V,GRM32ER71E226KE15L,Capacitor_SMD:C_1210_3225Metric,"X7R 25V 10%, 1210; both output capacitors required; DC-bias/temperature derating applies",Power
+C12,22u / 25V,GRM32ER71E226KE15L,Capacitor_SMD:C_1210_3225Metric,"X7R 25V 10%, 1210; both output capacitors required; DC-bias/temperature derating applies",Power
+C13,22u,GRM21BR61C226ME44L,Capacitor_SMD:C_0805_2012Metric,"X5R 16V 20%, 0805; input capacitor; operating board temperature <=85C",Power
+C14,100n,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,"X7R, 16V",Power
+C15,22u,GRM21BR61C226ME44L,Capacitor_SMD:C_0805_2012Metric,"X5R 16V 20%, 0805; board operation <=85C",Power
+C16,22u,GRM21BR61C226ME44L,Capacitor_SMD:C_0805_2012Metric,"X5R 16V 20%, 0805; board operation <=85C",Power
+C17,1u,GRM188R71C105KA12D,Capacitor_SMD:C_0603_1608Metric,"X7R, 16V",Power
+C18,4.7u,GRM188R61C475KE11D,Capacitor_SMD:C_0603_1608Metric,"X5R 16V 10%, 0603; board operation <=85C",Power
+C27,47u / 50V,EEUFR1H470,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,"Panasonic FR; D6.3mm, H11.2mm, P2.5mm; polarized input damping capacitor",Power
+D1,SS310 / 100V 3A,SS310-13-F,Diode_SMD:D_SMA,"SMA variant; anode toward battery, cathode toward protected input",Power
+D2,SMBJ28A,SMBJ28A-13-F,Diode_SMD:D_SMB,Unidirectional TVS; 28V standoff; cathode VIN_PROT. Zener-style symbol denotes avalanche TVS.,Power
+F1,1A / 476,0476001.MR,FC_Prototype:Fuse_Littelfuse_476,"Littelfuse 476, 1A fast; 10kA at 86VDC; 2410 package. FC branch only.",Power
+J2,BATTERY 3S-6S,WIRE CONNECTION - NO FITTED PART,Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm,Low-current FC supply only. Motor current does not flow through this board.,Power
+L1,22uH,SRP6060FA-220M,Inductor_SMD:L_Bourns_SRP6060FA,"22uH; 5.6A typical saturation, 3.8A RMS at 20C rise; 60.5mOhm max DCR",Power
+L2,4.7uH,SRP5030T-4R7M,Inductor_SMD:L_Bourns_SRP5030T,"4.7uH; 6A typical saturation, 4.6A RMS; 53mOhm max DCR; AP63203 allowed 2.2-10uH range",Power
+R11,80.6k,RC0603FR-0780K6L,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Power
+R12,20k,RC0603FR-0720KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Power
+U3,LMR36510ADDAR,LMR36510ADDAR,Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias,"65V rated input, 1A output, 400kHz; exposed pad to GND",Power
+U4,AP63203WU-7,AP63203WU-7,Package_TO_SOT_SMD:TSOT-23-6,Fixed 3.3V synchronous buck; upstream 5V stage limits total power,Power
+U5,TLV75533PDBVR,TLV75533PDBVR,Package_TO_SOT_SMD:SOT-23-5,Sensor-only supply; EN from digital 3V3 sequences sensors after MCU rail,Power
+C19,100n,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,Place at BMI088 pin3 VDD,Sensors
+C20,100n,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,Place at BMI088 pin11 VDDIO,Sensors
+C21,4.7u,GRM188R61C475KE11D,Capacitor_SMD:C_0603_1608Metric,"X5R 16V 10%, 0603; board operation <=85C",Sensors
+C22,100n,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,At BMP280 VDD,Sensors
+C23,100n,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,At BMP280 VDDIO,Sensors
+C24,100n,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,"X7R, 16V",Sensors
+C25,100n,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,"X7R, 16V",Sensors
+J3,I2C / 3.3V ONLY,TSW-104-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,Pinout defined by this schematic; verify mating cable,Sensors
+R13,33R,RC0603FR-0733RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Sensors
+R14,33R,RC0603FR-0733RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Sensors
+R15,33R,RC0603FR-0733RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Sensors
+R16,33R,RC0603FR-0733RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Sensors
+R17,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Sensors
+R18,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Sensors
+R19,4.7k,RC0603FR-074K7L,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Sensors
+R20,4.7k,RC0603FR-074K7L,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Sensors
+R21,150k,RT0603BRD07150KL,Resistor_SMD:R_0603_1608Metric,"0.1%, 0.1W; >=50V working voltage; protected voltage sense after reverse diode",Sensors
+R22,10k,RT0603BRD0710KL,Resistor_SMD:R_0603_1608Metric,"0.1%, 0.1W",Sensors
+R23,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Sensors
+R24,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Sensors
+R45,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Sensors
+U6,BMI088,BMI088,Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering,PS low selects gyro SPI; CS1 accel / CS2 gyro; 10MHz SPI maximum,Sensors
+U7,BMP280,BMP280,FC_Prototype:BMP280_SilkClear,"I2C address 0x76. Pressure sensor, not a compass.",Sensors
+C26,100n,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,"X7R, 16V",Interfaces
+J4,KILL STRAP,TSW-102-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,"Short these pins to force outputs disabled, including when GPIO21 is high",Interfaces
+J5,4-IN-1 ESC,TSW-108-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,Pinout defined by this schematic; verify mating cable,Interfaces
+J6,CRSF RECEIVER,TSW-104-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,Pinout defined by this schematic; verify mating cable,Interfaces
+J7,GPS UART,TSW-104-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,Pinout defined by this schematic; verify mating cable,Interfaces
+Q1,DMN2056U,DMN2056U-7,Package_TO_SOT_SMD:SOT-23,GPIO21 HIGH enables motor buffers; pull-down disables on MCU reset,Interfaces
+R25,33R,RC0603FR-0733RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Interfaces
+R26,33R,RC0603FR-0733RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Interfaces
+R27,33R,RC0603FR-0733RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Interfaces
+R28,33R,RC0603FR-0733RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Interfaces
+R29,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Interfaces
+R30,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Interfaces
+R31,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Interfaces
+R32,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Interfaces
+R33,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Interfaces
+R34,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Interfaces
+R35,100k,RC0603FR-07100KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Interfaces
+U8,SN74LVC125APWR,SN74LVC125APWR,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,"['name', 'Specification']",Interfaces
+D3,GREEN,APT1608LZGCK,LED_SMD:LED_0603_1608Metric,Low current status LED; firmware high turns on,Auxiliary
+D4,1N4148W,1N4148W-7-F,Diode_SMD:D_SOD-123,Flyback diode; cathode to 5V,Auxiliary
+J8,DEBUG UART0,TSW-104-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,Pinout defined by this schematic; verify mating cable,Auxiliary
+J9,AUX GPIO / TELEMETRY,TSW-104-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,Pinout defined by this schematic; verify mating cable,Auxiliary
+J10,ACTIVE BUZZER,TSW-102-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Pinout defined by this schematic; verify mating cable,Auxiliary
+Q2,DMN2056U,DMN2056U-7,Package_TO_SOT_SMD:SOT-23,External 5V active buzzer <=30mA,Auxiliary
+R36,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Auxiliary
+R37,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Auxiliary
+R38,100R,RC0603FR-07100RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Auxiliary
+R39,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Auxiliary
+R40,100R,RC0603FR-07100RL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Auxiliary
+R41,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Auxiliary
+R42,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Auxiliary
+R43,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Auxiliary
+R44,100k,RC0603FR-07100KL,Resistor_SMD:R_0603_1608Metric,"1%, 0.1W",Auxiliary
